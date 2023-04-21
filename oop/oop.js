@@ -18,7 +18,6 @@ const BinaryThermoSystem = (function() {
 
         changePhase(newphase) {this.currentPhase = newphase}
     }
-
     return BinaryThermoSystem;
 })()
 
@@ -26,9 +25,8 @@ const BinaryThermoSystem = (function() {
 
 const waterethanol = new BinaryThermoSystem('Water', 'Ethanol');
 const hextol = new BinaryThermoSystem('Hexane', 'Toluene');
-console.log(waterethanol.currentPhase + '\n');
+// console.log(waterethanol.currentPhase + '\n');
 
 
-console.log(waterethanol.currentPhase);
 
 
